@@ -73,7 +73,7 @@ $endif$
         \ps $postskriptum$
 
         $if(encludes)$
-            \setkomavar*{enclseparator}{Anlage}
+            \setkomavar*{enclseparator}{Anlagen}
             \encl{$encludes$}
         $endif$
     \end{letter}
